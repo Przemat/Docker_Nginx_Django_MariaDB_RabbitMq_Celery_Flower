@@ -15,6 +15,28 @@ Blog post -> https://realpython.com/blog/python/django-development-with-docker-c
 
 Add files server.crt and server.key to folder nginx/cert
 
+### Envarment Variable
+
+Create .env file
+
+Here is example:
+
+WEB_KEY="YOUR WEB KEY"
+
+DB_PORT=3306
+DB_PASSWORD="YOUR DATABASE PASSWORD"
+DB_NAME=Django
+DB_USER=root
+DB_SERVICE="YOUR ADDRESS"
+
+FLOWER_USER=user
+FLOWER_PASSWORD=password
+
+RABBITMQ_DEFAULT_USER=user
+RABBITMQ_DEFAULT_PASS=password
+CELERY_BROKER=amqp://user:password@rabbit:5672
+FLOWER_BROKER=amqp://user:password@rabbit:5672
+
 ### Troubleshooting
 
 Table 'Django.todo_item' doesn't exist"
