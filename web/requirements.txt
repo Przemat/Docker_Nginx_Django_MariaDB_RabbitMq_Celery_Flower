@@ -1,0 +1,15 @@
+amqp
+billiard
+Django
+gunicorn
+celery
+django-celery-beat
+django-celery-results
+mysqlclient
+kombu
+psycopg2
+pytz
+vine
+djangorestframework
+requests
+
