@@ -24,18 +24,28 @@ Here is example:
 WEB_KEY="YOUR WEB KEY"
 
 DB_PORT=3306
+
 DB_PASSWORD="YOUR DATABASE PASSWORD"
+
 DB_NAME=Django
+
 DB_USER=root
+
 DB_SERVICE="YOUR ADDRESS"
 
 FLOWER_USER=user
+
 FLOWER_PASSWORD=password
 
+
 RABBITMQ_DEFAULT_USER=user
+
 RABBITMQ_DEFAULT_PASS=password
+
 CELERY_BROKER=amqp://user:password@rabbit:5672
+
 FLOWER_BROKER=amqp://user:password@rabbit:5672
+
 
 ### Troubleshooting
 
